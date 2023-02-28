@@ -1,0 +1,35 @@
+<bundles>
+    <web-resource key="entrypoint-form">
+        <transformation extension="js">
+            <transformer key="jsI18n"/>
+        </transformation>
+        <context>form</context>
+        <resource type="download" name="bundled.form.js" location="relationship-ui/bundled.form.js"/>
+    </web-resource>
+    <web-resource key="entrypoint-dynamictable">
+        <transformation extension="js">
+            <transformer key="jsI18n"/>
+        </transformation>
+        <context>dynamictable</context>
+        <resource type="download" name="bundled.dynamictable.js" location="relationship-ui/bundled.dynamictable.js"/>
+    </web-resource>
+    <web-resource key="entrypoint-app">
+        <transformation extension="js">
+            <transformer key="jsI18n"/>
+        </transformation>
+        <context>app</context>
+        <resource type="download" name="bundled.app.js" location="relationship-ui/bundled.app.js"/>
+    </web-resource>
+    <web-resource key="assets-c8df4259-9f87-4dd3-b4bf-c77dae98fb94">
+        <transformation extension="js">
+            <transformer key="jsI18n"/>
+        </transformation>
+        <transformation extension="soy">
+            <transformer key="soyTransformer"/>
+            <transformer key="jsI18n"/>
+        </transformation>
+        <transformation extension="less">
+            <transformer key="lessTransformer"/>
+        </transformation>
+    </web-resource>
+</bundles>

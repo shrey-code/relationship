@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module-container>
+
+    <xhtml-macro name="Relationship"
+                 class="io.clapcode.confluence.plugin.relationship.macro.RelationshipMacro"
+                 key='relationship-macro-xhtml'
+                 icon="/download/resources/io.clapcode.confluence.plugin.relationship:relationship-web-resource/images/pluginLogo.png" >
+        <description key="relationship.macro.desc"/>
+        <category name="formatting"/>
+        <parameters>
+            <parameter name="relationship-id">
+                <option key="showNameInPlaceholder" value="false"/>
+                <option key="showValueInPlaceholder" value="false"/>
+            </parameter>
+            <parameter name="creation">
+                <option key="showNameInPlaceholder" value="false"/>
+                <option key="showValueInPlaceholder" value="false"/>
+            </parameter>
+        </parameters>
+    </xhtml-macro>
+
+</module-container>

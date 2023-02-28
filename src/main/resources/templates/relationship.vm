@@ -1,0 +1,6 @@
+<div id=relationship-$relationship-id" class="relationship-container" relationship-id=$relationship-id content-entity-id=$content-entity-id>
+    <div class="tree-container-view">
+
+    </div>
+    <input class="relationship-tree-view" type="hidden" value="$body"/>
+</div>

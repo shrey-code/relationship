@@ -1,0 +1,38 @@
+{namespace Confluence.Templates.Relationship}
+
+/******************************************
+ *   Relationship Custom Macro Dialog.
+ *   @param dialogId
+*******************************************/
+{template .MacroDialog}
+    <section role="dialog" id="{$dialogId}" class="aui-dialog2 aui-dialog2-xlarge" aria-hidden="true">
+        <!-- Dialog header -->
+        <header class="aui-dialog2-header">
+            <!-- The dialog's title -->
+            <h2 class="aui-dialog2-header-main">Relationship Structure</h2>
+        </header>
+
+        <!-- Main dialog content -->
+        <div class="aui-dialog2-content">
+            <div id="tree-container">
+                <ul>
+                    <li>Root node 1
+                        <ul>
+                            <li>Child node 1</li>
+                            <li><a href="#">Child node 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dialog footer -->
+        <footer class="aui-dialog2-footer">
+            <!-- Actions to render on the right of the footer -->
+            <div class="aui-dialog2-footer-actions">
+                <button id="relationshipMacroSave" class="aui-button aui-button-primary">Save</button>
+                <button id="relationshipMacroClose" class="aui-button aui-button-link">Close</button>
+            </div>
+        </footer>
+    </section>
+{/template}
